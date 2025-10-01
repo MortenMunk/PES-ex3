@@ -1,5 +1,8 @@
 #pragma once
 
+#define SYSCLK_HZ 8000000
+#define CYCLES_PR_MS (SYSCLK_HZ / 1000)
+
 #define RCC_BASE 0x40021000
 #define GPIOA_BASE 0x40010800
 

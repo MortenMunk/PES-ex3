@@ -26,6 +26,7 @@
               openocd
               clang-tools
               gdb
+              gnumake
             ];
           };
       }
